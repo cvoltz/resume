@@ -73,15 +73,15 @@
 
 % Reduce the vertical spacing around all section headers
 \titlespacing{\section}
-  {0 em}{1 ex plus 1 ex minus 1 ex}{-0.5 ex plus 1 ex minus 1 ex}
-\titlespacing{\subsection}
-  {0 em}{0 ex plus 1 ex minus 1 ex}{0.5 ex plus 1 ex minus 1 ex}
-\titlespacing{\subsubsection}
-  {0 em}{0 ex plus 1 ex minus 1 ex}{-1.5 ex plus 1 ex minus 1 ex}
+  {0 em}{1 ex plus 1 ex minus 1 ex}{+0.5 ex plus 1 ex minus 1 ex}
+%\titlespacing{\subsection}
+%  {0 em}{0 ex plus 1 ex minus 1 ex}{0.5 ex plus 1 ex minus 1 ex}
+%\titlespacing{\subsubsection}
+%  {0 em}{0 ex plus 1 ex minus 1 ex}{-1.5 ex plus 1 ex minus 1 ex}
 
 \title{Resume of Christopher Voltz}
 \author{Christopher Voltz}
-\date{2018-11-05}
+\date{2020-04-14}
 
 \begin{document}
 
@@ -92,7 +92,7 @@
       6607 Evergreen Springs Court\\
       Spring, Texas 77379\\
       281-376-6816\\
-      \href{mailto:voltz@voltz.ws?subject=Resume}{voltz@voltz.ws}
+      \href{mailto:voltz@voltz.us?subject=Resume}{voltz@voltz.us}
     }
   }
 \end{center}
@@ -102,7 +102,7 @@
 Experienced hardware and software engineer. Software architecture, development,
 debug, test, and program management experience of desktop, embedded, and web
 applications, services, drivers, and firmware for Linux, Windows, UNIX, and DOS.
-In-depth knowledge of PC hardware video architecture and software APIs.
+In-depth knowledge of HPC storage and PC graphics and video.
 Hardware experience includes conception, architecture, design, prototyping,
 debug, test, productization, and maintenance of many high speed mixed-signal
 designs for video and graphics subsystems. Experience with board design, PCB
@@ -121,12 +121,13 @@ solving and documentation skills.
 
 \vspace{-1.5ex}
 
-Currently a Master Engineer doing research and development on
-{\href{https://zfsonlinux.org/}{ZFS on Linux}} and
-{\href{http://lustre.org/}{Lustre}} for high performance computing (HPC) storage
-solutions.
+Currently a Master Engineer doing research and development on Spectrum Scale
+Erasure Code Edition for high performance computing (HPC) storage solutions.
 
 \begin{itemize}
+  \item Developed software for {\href{https://zfsonlinux.org/}{ZFS on Linux}}
+    and {\href{http://lustre.org/}{Lustre}} for HPC storage solutions.
+
   \item Created Ansible based installer for \href{https://ceph.com}{Ceph}
     storage solution.
 
@@ -149,9 +150,9 @@ solutions.
   \item Member of core team which determined strategy and direction for
     commercial and enterprise desktops graphics and video.
 
-  \item Personal Systems Group (PSG) technical focal point for graphics and
+  \item Technical focal point for graphics and
     video responsible for coordinating graphics and video technologies across
-    business units within PSG and across business groups within HP.
+    business groups within HP.
 
   \item Mentor for junior engineers and interns.
 
@@ -219,27 +220,8 @@ solutions.
   }
 
   Electrical Design Engineer responsible for design, debug, and documentation of
-  embedded hardware and software to test production boards for
-  \href{http://www.army-technology.com/projects/javelin/}{AAWS-M anti-tank
-  missile (JAVELIN)}.
-
-  \begin{itemize}
-    \item Designed and debugged high speed 10-layer mixed signal PCBs for
-      testing Image Array Processor board and Master Controller Processor board.
-
-    \item Developed firmware and software using C, X Window System, and Intel
-      8751 assembly language for image processing and display, and testing of
-      production boards.
-
-    \item Designed and debugged hardware and developed firmware and software for
-      Bus Interface Controller Card which supported
-      \href{http://www.ti.com/lit/an/ssya002c/ssya002c.pdf}{JTAG},
-      \href{http://en.wikipedia.org/wiki/IEEE_488}{GPIB (IEEE-488)}, High Speed
-      \href{http://www.pyramidsemiconductor.com/download/P1750A.pdf}{1750A CPU},
-      and digital I/O using embedded Intel microcontroller.
-
-    \item System administrator for HP UNIX System V workstations.
-  \end{itemize}
+  embedded hardware (including high speed 10-layer mixed signal PCBs) and
+  software using C, X Window System, and Intel 8751 assembly language.
 \end{minipage}
 
 \medskip
@@ -251,149 +233,11 @@ solutions.
   }
 
   Computer programmer/technician responsible for design of digital image
-  processing and real-time custom visual stimuli display software and analysis
-  software for basic vision research using PC and SGI IRIS workstations.
-
-  \begin{itemize}
-    \item Wrote C, 80x86 assembly, FORTRAN, Pascal, and BASIC software for PCs,
-      microVAXes, and CRAY supercomputer, to generate and analyze images (using
-      \href{http://en.wikipedia.org/wiki/Fourier_analysis}{Fourier} and
-      \href{http://en.wikipedia.org/wiki/Gabor_transform}{Gabor} analysis), and
-      display images on CGA, EGA, VGA, IBM PGA, PC Vision, and DT-2871 PC option
-      cards, and SGI IRIS supergraphics workstations.
-
-    \item System administrator for UNIX System V IRIS graphics workstations.
-  \end{itemize}
+  processing and real-time custom visual stimuli display and analysis
+  software (using C, 80x86 assembly, FORTRAN, Pascal, and BASIC) for basic vision research.
 \end{minipage}
 
 \section{Education}
-
-\subsection{Continuing Education}
-
-\begin{itemize}
-  \item 2018:
-    \textit{Cybersecurity for the Local Risk Environment},
-    \textit{Digital Disruption in the Marketplace},
-    \textit{DevOps \& Continuous Delivery within Services R\&D},
-    \textit{AI/DL Software TekTalk},
-    \textit{Coverity Best Practices} series,
-    \textit{Gen-Z and HPC},
-    \textit{LinuxKI Toolset} series,
-    \textit{HPE Performance Cluster Manager}.
-
-  \item 2016:
-    \textit{Presenting Data and Information} by Edward Tufte,
-    \textit{Cognitive Computing and Deep Learning in the Open Source Domain},
-    \textit{A Look at Kubernetes from 30,000 Feet and a Drill Down Into the Core},
-    \textit{Validation of Lustre on ZFS for the HPC Storage Market},
-    \textit{Ruby Performance Optimization},
-    \textit{Working with Open Source Communities},
-    \textit{Lecture on OpenZFS read and write code paths} by Matt Ahrens,
-    \textit{Working with the Debian Community},
-    \textit{Practical Python},
-    \textit{Build a High Performance Ceph Object Storage Cluster with SSD Drives
-      on HP DL380 Servers},
-    \textit{SUSE Linux Academy},
-    \textit{Modern Agile},
-    \textit{How Git Works},
-    \textit{Global Trade Export Awareness},
-    \textit{Haml and Sass},
-    \textit{Modern Web Layout with Flexbox and CSS Grid},
-    \textit{CSS Flexbox Fundamentals},
-    \textit{Hands-On Ansible},
-    \textit{Exploring Go: The Language Taking Over The Cloud},
-    \textit{Technical Career Path (TCP)–-Overview, Nomination and Review Process},
-    \textit{Intel Lustre},
-    \textit{OpenShift 3: Scalable and Efficient Linux Container Platform
-      Enabling DevOps with Kubernetes}.
-
-  \item 2015:
-    \textit{Linux Containers in the Enterprise with RHEL Atomic Host and Kubernetes},
-    \textit{Open Source Development Framework for Web Applications},
-    \textit{Just-in-Time Scan Module Calibration Using Multilinear Optimization},
-    \textit{The Three Pillars Approach to Agile Testing Strategy},
-    \textit{Introduction to OpenStack for HP Developers},
-    \textit{Inktank Ceph Enterprise}.
-
-  \item 2014:
-    \textit{Agile Engineering at Scale},
-    \textit{Object Storage 201--Understanding Architectural Trade-Offs},
-    \textit{Orchestration of Digital Assets},
-    \textit{Lifecycle Management for the Cloud},
-    \textit{Global Trade--Technology Transfer Controls and Issues},
-    \textit{Business with U.S. Public Sector Customers},
-    \textit{Patent and Invention Disclosure},
-    \textit{ESSN Product Development Process [PDP] Overview},
-    attended Puppet Conference,
-    \textit{Understanding and Maximizing Network Performance on HP ProLiant Rack
-      Servers in a Linux environment},
-    \textit{Shared Fault Tolerant NVM engineering seminar},
-    \textit{Agile is Risk Managment},
-    \textit{Customer experience and NPS},
-    \textit{Ruby on Rails 4},
-    \textit{C++11 Concurrency},
-    \textit{Managing Large Scale Dynamic Infrastructure with Puppet},
-    \textit{Cyber Defense Center: Operations, Innovation, Vision and Driving
-      Product Enablement}.
-
-  \item 2010:
-    \textit{RH442VT Red Hat Enterprise System Monitoring and Performance Tuning}.
-
-  \item 2009:
-    \href{https://elearning.industriallogic.com/gh/submit?Action=AlbumContentsAction&album=collaborations&devLanguage=Cpp}
-      {\textit{Microtesting Vol. 3: Collaborations}},
-    \href{https://elearning.industriallogic.com/gh/submit?Action=AlbumContentsAction&album=legacy&devLanguage=Cpp}
-      {\textit{Microtesting Vol. 4: Legacy Code}}.
-
-  \item 2008:
-    \textit{RHD221 Red Hat Linux Device Drivers},
-    \textit{RHD236 Red Hat Linux Kernel Internals},
-    \textit{Lattice FPGAs with Verilog},
-    \href{https://elearning.industriallogic.com/gh/submit?Action=AlbumContentsAction&album=recognizingSmells&devLanguage=Cpp}
-      {\textit{Code Smells}},
-    \href{https://elearning.industriallogic.com/gh/submit?Action=AlbumContentsAction&album=foundations&devLanguage=Cpp}
-      {\textit{Refactoring}},
-    \href{https://elearning.industriallogic.com/gh/submit?Action=AlbumContentsAction&album=theBasics&devLanguage=Cpp}
-      {\textit{Microtesting Vol. 1: The Basics}},
-    \href{https://elearning.industriallogic.com/gh/submit?Action=AlbumContentsAction&album=before&devLanguage=Cpp}
-      {\textit{Microtesting Vol. 2: Test-Driven Development}}.
-
-  \item 2007: \textit{Pragmatic Studio Test-Driven Development with Rails Studio}.
-
-  \item 2006:
-    \href{http://pragmaticstudio.com/rails/}{\textit{Pragmatic Studio Ruby on Rails}},
-    \href{http://pragmaticstudio.com/rails-ii}{\textit{Pragmatic Studio Advanced Rails}},
-    \textit{Writing Contracts}.
-
-  \item 2005:
-    \href{http://www.sigcon.com/Pubs/HSSPsem.html}
-      {\textit{Advanced High Speed Signal Propagation}},
-    \textit{Accelerated Linux System Administration},
-    \textit{Technical Career Path Catalyst},
-    \textit{Cross-Cultural Executive Briefings},
-    \textit{DHTML and CSS},
-    \textit{Working with Sendmail and Apache in Linux}.
-
-  \item 2004:
-    \textit{Secure Communications and Virtual Private Networks},
-    \textit{Documents on Trial: Law and Preventive Writing}.
-
-  \item 2003:
-    \textit{PCI Express},
-    \textit{EMI/ESD Product Design Considerations},
-    \textit{Writing UNIX Shell Programs}.
-
-  \item 2002:
-    \textit{RH253 Red Hat Linux Networking and Security Administration},
-    \textit{RH300 RHCE Rapid Track Course}.
-
-  \item 2000:
-    \textit{Windows 2000 Kernel Debugging},
-    \href{http://www.sigcon.com/Pubs/HSDDsem.htm}
-      {\textit{High Speed Digital Design}}.
-\end{itemize}
-
-\medskip
 
 \begin{minipage}{\textwidth}
   \subsection[MEE in Computer Systems Engineering]{
@@ -405,15 +249,6 @@ solutions.
   \begin{itemize}
     \item Major in VLSI design with minors in DSP/image processing and advanced
       optimizing compiler construction.
-
-    \item Project lead and designer in a team which designed, simulated,
-      fabricated and tested a full custom ASIC for vending machine controller
-      using VHDL, Lager, Magic, PSPICE, and eSIM.
-
-    \item Relevant classes include: VLSI Design I and II, Digital Signal
-      Processing I, Digital Image Processing, Compiler Construction, Advanced
-      Compiler Optimization, Computer Systems Design, and Digital Systems
-      Design.
   \end{itemize}
 \end{minipage}
 
@@ -425,16 +260,6 @@ solutions.
     \href{https://engineering.asu.edu/undergraduate-degree-programs}
     {Arizona State University} {\small (Tempe, AZ)} \hfill May 1989
   }
-
-  \begin{itemize}
-    \item Relevant classes include: Computer Graphics, RISC Architecture and
-      Compilers, Microprogramming, Parallel Processing, Computer Architecture
-      and Organization, and Operating Systems.
-
-    \item Generated various compilers, simulators for VLIW, bit-sliced, RISC,
-      CISC, and microprogrammed processors for functional and procedural
-      languages.
-  \end{itemize}
 \end{minipage}
 
 \section[Patents (USPTO and EPO) and Patent Applications]{
@@ -447,6 +272,9 @@ solutions.
 }
 
 \begin{itemize}
+  \item Pending:
+    {\textit{Updating Firmware Images on Chained Input/Output (I/O) Modules}}.
+
   \item Pending: \href{http://voltz.ws/resume/20070099638.pdf}
     {\textit{Multi-number Wireless Communications System and Method}}.
 
@@ -456,6 +284,9 @@ solutions.
   \item Pending: \href{http://voltz.ws/resume/20030122840.pdf}
     {\textit{Method of Optimizing Video Output for a Computer System with
     Digital-to-Analog Converter Characterization Data}}.
+
+  \item 8,358,347 \href{http://voltz.ws/resume/8358347.pdf}
+    {\textit{Frame rate measurement}}.
 
   \item 8,031,268: \href{http://voltz.ws/resume/8031268.pdf}
     {\textit{Audio over a Standard Video Cable}}.
@@ -546,18 +377,4 @@ solutions.
     Technical Report for Period Oct. 1987 to July 1989.
 \end{itemize}
 
-\section{Languages and Tools}
-
-\begin{itemize}
-  \item Most commonly used: Ansible, AWK, bash, C, C++, CSS, Docker, Gherkin
-    (Cucumber), git, graphviz, HTML, Javascript, \LaTeX, PlantUML, Regex, RSpec,
-    Ruby, sed, Sinatra, Vim.
-
-  \item Used in previous projects: ABEL, Ada, Allegro, Assembly (1750A, 6502,
-    6809, 68000, 8051, 8080, 80x86 (MASM, TASM, Intel), ADSP-21xx, Z80), AWK,
-    BASIC (Fluke, Microsoft, Quick, Tiny), Chef, csh, Coverity, DOS Batch,
-    dBase, FORTRAN (IV, 66, 77), Lager, Lex, MATLAB, Octave, OrCAD, Pascal
-    (Turbo, UCSD), Perl, PHP, PLA, Postscript, Python, Puppet, Ruby on Rails,
-    Turbo Prolog, SPICE, SQL (MySQL, SQLite), Verilog, VHDL, XML, YACC.
-  \end{itemize}
 \end{document}
